@@ -14,18 +14,15 @@ html,body,header{
 
 }
 
-h1 {
+h1,h4 {
     letter-spacing: 8px;
-    color:cadetblue;
+    color:yellow;
     font-weight: bolder;
     font-family: 'Wallpoet', cursive;
     font-size: 60px;
-    text-shadow: 2px 2px 5px cadetblue
+    text-shadow: 2px 2px 5px yellowgreen
   }
   
-h5 {
-    letter-spacing: 3px;
-  }
   h5 {
     letter-spacing: 3px;
   }
@@ -36,3 +33,14 @@ h5 {
     position: absolute;
     
   }
+  .main-div1{
+    background-image: url('https://image.freepik.com/free-photo/delicious-pizza-ingredients-wooden-background-top-view_185193-5970.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    padding-bottom: 20px;
+    position: relative;
+    
+  }
+  

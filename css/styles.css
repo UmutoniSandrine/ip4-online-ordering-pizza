@@ -20,6 +20,19 @@ h1 {
     font-weight: bolder;
     font-family: 'Wallpoet', cursive;
     font-size: 60px;
-    text-shadow: 2px 2px 5px rgb(8, 156, 5);
+    text-shadow: 2px 2px 5px cadetblue
   }
   
+h5 {
+    letter-spacing: 3px;
+  }
+  h5 {
+    letter-spacing: 3px;
+  }
+  #overlay{
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+  }

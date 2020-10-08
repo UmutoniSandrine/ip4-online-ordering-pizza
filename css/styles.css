@@ -26,23 +26,7 @@ h1,h4 {
   h5 {
     letter-spacing: 3px;
   }
-  #overlay{
-    background-color: rgba(0, 0, 0, 0.1);
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    
-  }
-  .main-div1{
-    background-image: url('https://image.freepik.com/free-photo/delicious-pizza-ingredients-wooden-background-top-view_185193-5970.jpg');
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    padding-bottom: 20px;
-    position: relative;
-    
-  }
+ 
   .text a{
     font-size: 20px;
     font-weight: 700;
@@ -55,5 +39,8 @@ h1,h4 {
     border-radius: 10px;
     color: yellow;
 
+  }
+  .main-div1{
+    background-image: url('');
   }
   

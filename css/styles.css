@@ -43,4 +43,17 @@ h1,h4 {
     position: relative;
     
   }
+  .text a{
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .text h5{
+    font-size: 25px;
+    padding: 30px;
+  }
+  .button{
+    border-radius: 10px;
+    color: yellow;
+
+  }
   

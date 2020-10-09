@@ -130,7 +130,7 @@
             <h2>Please Make order We will deliver to you in few minutes</h2>
             <div class="row">
                 <div class="col-sm-5">
-                    <form>
+                    <form action="">
                         <label for="SELECT"> Select Your Favorite Pizza</label>
                         <select class="browser-defaut custom-select custom-select-md mb-3 name">
                             <option value="Chicken Tikka">Chicken pizza</option>
@@ -212,6 +212,19 @@
                         <button class="btn btn-success addPizza">Add </button>
                         <button class="btn btn-success" id="checkout">Check</button>
                         <button class="btn btn-success deliver">Your location</button>
+                    </div>
+                    <div class="d">
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                                <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+                                <input type="text" id="location" class="form-control mb-3"
+                                    placeholder="Location for delivery">
+                                <button class="btn btn-success" id="final-order">message</button>
+                            </div>
+
+                        </form>
+
                     </div>
 
                 </div>

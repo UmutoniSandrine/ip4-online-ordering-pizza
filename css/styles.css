@@ -1,5 +1,11 @@
 
-
+.arr{
+  position: relative;
+  left: 50%;
+  top: 90%;
+  margin-left:-20px;
+  
+}
 
 h1,h4 {
     letter-spacing: 8px;

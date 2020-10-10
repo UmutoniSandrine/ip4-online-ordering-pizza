@@ -61,6 +61,7 @@ h1,h4 {
     margin: 0;
     padding-left: 14px;
     padding-right: 14px;
+    margin-left: 11px;
 
   }
     .overlay2 h2{
@@ -91,42 +92,62 @@ h1,h4 {
     font-family: cursive;
 
 }
+#c h2{
+  text-align: center;
+}
+#c {
+  color: black;
+}
+#all-details h2{
+  text-align: left;
+}
+.footer{
+  padding-top: 5%;
+}
   
-  .col-md-4{
+.col-md-4{
     border-radius: 10%;
     padding: 10px;
-  }
-  nav .navbar{
+}
+nav .navbar{
     width: 99%;
     padding-right: 0px;
-  }
-  .navbar-brand{
+}
+.navbar-brand{
     margin-right: 30%;
     font-weight:800;
-  }
-  .nav-item a{
+}
+.nav-item a{
   
     font-size: 20px;
     font-weight: 700;
     
-  }
-  .div6{
+}
+.div6{
     padding:10px;
-  }
-  .overlay1{
+}
+.overlay1{
     color: white;
   }
-  .overlay{
+.overlay{
   background-color:coral;
   padding-right: 16px;
   padding-left: 16px;
   padding-bottom: 16px;
-  }
-  .make-choice{
+}
+.make-choice{
   display: none;
   padding-left: 2%;
   padding-right: 2%;
 }
-
+.your-pizza{
+  color: white;
+  font-size: 30px;
+}
+.contact{
+  padding: 10px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
   
   

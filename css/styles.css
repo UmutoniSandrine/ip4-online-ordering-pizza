@@ -52,10 +52,7 @@ h1,h4 {
     padding-right: 14px;
 
   }
-  body{
-    
-  }
-  .overlay2 h2{
+    .overlay2 h2{
     color:black;
     padding-top: 40px;
     padding-bottom: 20px;
@@ -114,4 +111,11 @@ h1,h4 {
   padding-left: 16px;
   padding-bottom: 16px;
   }
+  .make-choice{
+  display: none;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+  
   

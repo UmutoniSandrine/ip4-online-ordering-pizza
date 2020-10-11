@@ -74,15 +74,34 @@ $(document).ready(function(){
         $("#crustofpizza").html($("#crust option:selected").val());
         $("#toppingofpizza").html(stopping.join(", "));
         $("#totalmoney").html(total);
-        
+
         $("button.addPizza").click(function(){
-            let pname = $(".name option:selected").val();
-            let psize = $("#size option:selected").val();
-            let pcrust = $("#crust option:selected").val();
-            let ptopping = [];
-            $.each($("input[name='toppings']:checked"), function(){            
-                ptopping.push($(this).val());
+            let sname = $(".name option:selected").val();
+            let ssize = $("#size option:selected").val();
+            let scrust = $("#crust option:selected").val();
+            let stopping = [];
+            $.each($("input[name='soppings']:checked"), function(){            
+                stopping.push($(this).val());
            });
+           console.log(ptopping.join(", "));
+      switch(psize){
+        case "0":
+          price =0;
+        break;
+        case "large":
+           price = 20,000(RWF);
+           console.log(price);
+         break;
+         case "medium":
+           price = 10,000(RWF);
+           console.log("The price is "+price);
+         break;
+         case "small":
+           price = 5,000(RWF);
+           console.log(price);
+         default:
+           console.log("error"); 
+       }
        });
     
 

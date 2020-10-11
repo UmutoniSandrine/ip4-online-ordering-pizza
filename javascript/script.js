@@ -13,7 +13,10 @@ $(document).ready(function(){
         var ssize = $("#size option:selected").val();
         var scrust = $("#crust option:selected").val();
         var stopping=[];
-        $.each($(""))
+        $.each($("input[name='toppings']:checked"), function(){
+            
+
+        });
 
 
     });

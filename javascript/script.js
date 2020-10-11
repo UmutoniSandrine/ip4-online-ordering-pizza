@@ -69,6 +69,12 @@ $(document).ready(function(){
         console.log(total);
         var sum =0;
         sum = sum + total;
+        $("#nameofpizza").html($(".name option:selected").val());
+        $("#sizeofpizza").html( $("#size option:selected").val());
+        $("#crustofpizza").html($("#crust option:selected").val());
+        $("#toppingofpizza").html(stopping.join(", "));
+        $("#totalmoney").html(total);
+    
 
 
 

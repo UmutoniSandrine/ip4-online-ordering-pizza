@@ -74,6 +74,16 @@ $(document).ready(function(){
         $("#crustofpizza").html($("#crust option:selected").val());
         $("#toppingofpizza").html(stopping.join(", "));
         $("#totalmoney").html(total);
+        
+        $("button.addPizza").click(function(){
+            let pname = $(".name option:selected").val();
+            let psize = $("#size option:selected").val();
+            let pcrust = $("#crust option:selected").val();
+            let ptopping = [];
+            $.each($("input[name='toppings']:checked"), function(){            
+                ptopping.push($(this).val());
+           });
+       });
     
 
 

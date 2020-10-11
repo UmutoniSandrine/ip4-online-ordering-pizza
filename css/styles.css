@@ -164,4 +164,8 @@ nav .navbar{
   padding-left: 5%;
   color: coral;
 }
+#price{
+  display: none;
+
+}
   

@@ -118,11 +118,63 @@ $(document).ready(function(){
         default:
           console.log("No price"); 
         }
+        var topping_value = stopping.length*50;
+        console.log("toppins value" + topping_value);
+        total = price + crust_price + topping_value;
+        console.log(total);
+        sum = sum+ total;
+        console.log(sum);
+        var newOrder = new findPizza(pname, psize, pcrust,ptopping,total);
+
+        $("#ordersmade").append('<tr><td id="pizzaname">'+newOrder.name +'</td><td id="pizzasize">' + newOrder.size + '</td><td id="pizzacrust">'+newOrder.crust + '</td><td id="pizzatopping">'+newOrder.topping+'</td><td id="totals">'+newOrder.total+'</td></tr>');
+        console.log(newOrder);
+
        });
+       $("button#checkout").click(function(){ 
+        $("button#checkout").hide();
+        $("button.addPizza").hide();
+        $("button.deliver").slideDown(1000);
+        $("#price").slideDown(1000);
+        console.log("Your total bills is sh. "+sum);
+        $("#pizzatotal").append("Your bill is sh. "+sum);
+      });
+      $("button.deliver").click(function(){
+        $(".pizzatable").hide();
+        $(".make-choice h2").hide();
+        $(".d").slideDown(1000);
+        $("#price").hide();
+        $("button.deliver").hide();
+        $("#pizzatotal").hide();
+        var deliceryamount= sum+150;
+        console.log("You will pay RWF. "+deliceryamount+" on delivery");
+        $("#bill").append("Your bill plus delivery fee is: "+deliceryamount);
+      });
+      $("button#final-order").click(function(event){
+        event.preventDefault();
+  
+        $("#pizzatotal").hide();
+        $(".d").hide();
+        $("button#final-order").hide();
+        let deliceryamount= checkoutTotal+150;
+        console.log("Final Bill is: "+deliceryamount);
+        let person = $("input#name").val();
+        let phone = $("input#phone").val();
+        let location = $("input#location").val();
+  
+        if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""){
     
-
-
-
+          $("#message").append(person+", We have recieved your order and it will be delivered to you at "+location+ ". Prepare sh. "+deliceryamount);
+          $("#bill").hide();
+          $("#message").slideDown(1200);
+        }
+        else {
+          alert("Please fill in the details for delivery!");
+          $(".d").show();
+          $("button#final-order").show();
+        }
+      });
+      event.preventDefault();
+    
     });
 
 });

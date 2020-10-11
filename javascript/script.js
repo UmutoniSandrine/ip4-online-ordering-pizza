@@ -101,7 +101,23 @@ $(document).ready(function(){
            console.log(price);
          default:
            console.log("error"); 
-       }
+        }
+       switch(pcrust){
+        case "0":
+          crust_price = 0;
+        break;
+        case "Crispy":
+          crust_price = 10,000(RWF);
+        break;
+        case "Stuffed":
+          crust_price = 5,000(RWF);
+        break;
+        case "Gluten":
+          crust_price = 2,500(RWF);
+        break;
+        default:
+          console.log("No price"); 
+        }
        });
     
 

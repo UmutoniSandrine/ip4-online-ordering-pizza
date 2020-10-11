@@ -58,10 +58,10 @@ h1,h4 {
     padding-bottom: 20px;
     position: relative;
     overflow-x: hidden;
-    margin: 0;
-    padding-left: 14px;
-    padding-right: 14px;
-    margin-left: 11px;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    
 
   }
     .overlay2 h2{

@@ -13,6 +13,7 @@ $(document).ready(function(){
         var ssize = $("#size option:selected").val();
         var scrust = $("#crust option:selected").val();
         var stopping=[];
+        $.each($(""))
 
 
     });

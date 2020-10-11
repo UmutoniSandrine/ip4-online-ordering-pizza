@@ -1,7 +1,7 @@
 # ip4-online-ordering-pizza
 ## Author
 
-[Owiti-Charles](https://github.com/Owiti-Charles)
+[UmutoniSandrine](https://github.com/UmutoniSandrine)
 
 
 
@@ -15,7 +15,7 @@ This is a web application for Pizza Deliciosa which is a pizza selling venture, 
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
 
-* git clone ```https://github.com/Owiti-Charles/Pizza-Deliciosa.git```
+* git clone ```https://github.com/UmutoniSandrine/ip4-online-ordering-pizza.git```
 
 * cd Pizza-Deliciosa
 
@@ -37,9 +37,9 @@ This is a web application for Pizza Deliciosa which is a pizza selling venture, 
 | Select piza size  | large, medium, small |  large  |
 | Select Crust   |  Either cripsy,stuffed or glutten-free  |     |
 | select toppings  |  check all the topppings you want     |     |
-| Press Proceed button |     | Table with your selections with the total price for that selection.|
+| Press Buy button |     | Table with your selections with the total price for that selection.|
 | Press add pizza button | pizza flavor,size, crust and toppings   | new selection added to the table|
-| Press Checkout |     | Your bill is ...  |
+| Press Check |     | Your bill is ...  |
 | Press home delivery | Your name, phone number and delivery location     |  |
-| press place order| | We have recieved your order and it will be delivered to you with your name, place of delivery and amount to be paid.|
+| press Your Location | | We have recieved your order and it will be delivered to you with your name, place of delivery and amount to be paid.|
 

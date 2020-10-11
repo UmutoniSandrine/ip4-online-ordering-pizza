@@ -7,3 +7,9 @@ function findPizza(name,size,crust,topping,total){
     this.topping=topping;
     this.total =total;
 }
+$(document).ready(function(){
+    $("button.submit").click(function(event){
+        
+    });
+
+});

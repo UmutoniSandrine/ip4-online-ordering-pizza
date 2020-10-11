@@ -60,7 +60,15 @@ $(document).ready(function(){
             $("#More-about-delivery").show();
             $("div.make-choice").hide();
             alert(" pizza size and crust"); 
+        }else{
+            $("button.submit").hide();
+            $("#More-about-delivery").hide();
+            $("div.make-choice").slideDown(1000);
         }
+        total = price + crust_price + topping_value;
+        console.log(total);
+        var sum =0;
+        sum = sum + total;
 
 
 

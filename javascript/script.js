@@ -14,9 +14,9 @@ $(document).ready(function(){
         var scrust = $("#crust option:selected").val();
         var stopping=[];
         $.each($("input[name='toppings']:checked"), function(){
-            
-
+            stopping.push($(this).val());
         });
+        console.log(stopping.join(", "));
 
 
     });

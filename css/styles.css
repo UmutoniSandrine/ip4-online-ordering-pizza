@@ -19,6 +19,13 @@ h1,h4 {
     font-size: 60px;
     text-shadow: 2px 2px 5px yellowgreen
   }
+  #message{
+    display: none;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 28px;
+  }
   
   h5 {
     letter-spacing: 3px;
@@ -147,6 +154,13 @@ nav .navbar{
   padding: 10px;
   margin-left: 12px;
   margin-right: 12px;
+}
+#More-about-delivery{
+  padding-top: 5%;
+  font-size: 22px;
+  padding-right: 8%;
+  padding-left: 5%;
+  color: coral;
 }
   
   

@@ -50,7 +50,18 @@ $(document).ready(function(){
             break;
             default:
               console.log("No price"); 
-          }
+        }
+        var topping_value = stopping.length*50;
+        console.log("toppins value" + topping_value);
+
+        if((ssize == "0") && (scrust == "0")){
+            console.log("nothing selected");
+            $("button.submit").show();
+            $("#More-about-delivery").show();
+            $("div.make-choice").hide();
+            alert(" pizza size and crust"); 
+        }
+
 
 
     });

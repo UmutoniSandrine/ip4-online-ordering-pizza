@@ -9,7 +9,11 @@ function findPizza(name,size,crust,topping,total){
 }
 $(document).ready(function(){
     $("button.submit").click(function(event){
-        
+        var sname = $(".name option:selected").val();
+        var ssize = $("#size option:selected").val();
+        var scrust = $("#crust option:selected").val();
+        var stopping=[];
+
 
     });
 

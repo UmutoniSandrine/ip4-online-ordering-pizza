@@ -37,6 +37,6 @@ This is a web application for Pizza Sandy Bakery which is a pizza selling ventur
 | Press Buy button |     | Table with your selections with the total price for that selection.|
 | Press add pizza button | pizza flavor,size, crust and toppings   | new selection added to the table|
 | Press Check |     | Your bill is ...  |
-| Press home delivery | Your name, phone number and delivery location     |  |
+| Press home delivery press Button Your Location| Your name, phone number and delivery location     |  |
 | press Your Location | | We have recieved your order and it will be delivered to you with your name, place of delivery and amount to be paid.|
 
